@@ -5,5 +5,32 @@
 </head>
 <body>
     <h1>Hello World! My website is live.</h1>
+    <button class="toggle-theme small">THEME</button>
+    <section id="morph-svg">
+      <div class="morph-container">
+        <!-- Text Layers -->
+        <p class="text-overlay svg-text-close">About</p>
+        <div class="text-overlay svg-text-open">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            id="cat-svg"
+          >
+            <path
+              id="cat-path"
+              d="M 12 5 C 12.223 5 12.448 5.01 12.672 5.03 C 12.896 5.049 13.12 5.079 13.341 5.117 C 13.563 5.156 13.783 5.203 14 5.26 C 15.78 3.26 19.03 2.42 20.42 3 C 21.12 3.29 21.015 5.04 20.735 6.718 C 20.455 8.395 20 10 20 10 C 20.57 11.07 21 12.24 21 13.44 C 21 14.927 20.552 16.262 19.771 17.382 C 18.99 18.502 17.876 19.407 16.542 20.031 C 15.209 20.656 13.657 21 12 21 C 9.515 21 7.265 20.25 5.636 18.93 C 4.008 17.61 3 15.72 3 13.44 C 3 12.19 3.5 11.04 4 10 C 4 10 3.527 8.395 3.229 6.718 C 2.93 5.04 2.805 3.29 3.5 3 C 4.89 2.42 8.22 3.23 10 5.23 C 10.656 5.079 11.327 5.002 12 5 C 12 5 12 5 12 5 M 8 14.5 L 8 14 M 16 14.5 L 16 14"
+            />
+          </svg>
+          <h1>I ❤️ cat memes</h1>
+        </div>
+
+        <!-- The SVG -->
+        <svg class="morph-svg" viewBox="0 0 200 200">
+          <path class="morph-shape" d="" />
+        </svg>
+      </div>
+    </section>
 </body>
 </html>
